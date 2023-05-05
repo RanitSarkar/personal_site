@@ -1,0 +1,213 @@
+main{
+  color: aliceblue;
+}
+.navbar{
+    font-family: 'Audiowide', cursive;
+}
+.heading{
+  font-family:'Audiowide',cursive;
+  text-align: center;
+  font-size: large;
+}
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.mask-custom {
+  backdrop-filter: blur(5px);
+  background-color: rgba(239, 227, 227, 0.15);
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+.myimage{
+  width:400px; 
+  height:400px;
+}
+.parent{
+  position: relative;
+}
+.child{
+  position: relative;
+  bottom: 200px;
+  left: 10px;
+}
+.child2{
+  position: relative;
+  bottom:428px;
+  left: 60px;
+}
+.ranitimage{
+  height: 200px;
+}
+.name{
+  padding-top: 100px;
+  font-family: 'Audiowide', cursive;
+  text-align: center;
+}
+.introduction{
+  padding:10px;
+  font-family: 'Poppins', sans-serif;
+  background: #373434;
+  border-radius: 10px;
+}
+.education{
+  border-radius: 10px;
+  padding-top: 100px;
+  padding: 20px;
+  background: linear-gradient(90deg, rgba(20,16,93,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+.gap{
+  padding:20px;
+}
+.iis{
+  width:400px;
+  height: 200px;
+  border-radius: 20px;
+}
+.gradient{
+  background: linear-gradient(90deg, rgba(20,16,93,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+  border-radius: 10px;
+}
+.textbox{
+  padding: 10px;
+}
+
+* {box-sizing: border-box}
+#skills{
+  padding: 50px;
+}
+.containerskill {
+  width: 100%;
+  background-color: #3c3a3a;
+  border-radius: 10px;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {width: 20px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  animation-name: bars;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+.css {width: 20px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  animation-name: bars2;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+.js {width: 20px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  animation-name: bars3;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+.php {width: 20px;
+  height: 40px;
+  border-radius: 10px;
+  position: relative;
+  animation-name: bars4;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+
+@keyframes bars{
+  0%{background-color: rgba(20,16,93,1); left: 0px; width:0%}
+  25%{background-color:rgb(25, 0, 255); left: 0px; width:10%}
+  50%{background-color: rgb(46, 82, 245); left: 0px; width:50%}
+  75%{background-color: rgb(12, 118, 139); left: 0px; width:60%}
+  100%{background-color: rgb(0, 221, 255); left: 0px; width:90%}
+}
+@keyframes bars2{
+  0%{background-color: rgba(20,16,93,1); left: 0px; width:0%}
+  25%{background-color:rgb(25, 0, 255); left: 0px; width:10%}
+  50%{background-color: rgb(46, 82, 245); left: 0px; width:50%}
+  75%{background-color: rgb(12, 118, 139); left: 0px; width:60%}
+  100%{background-color: rgb(0, 221, 255); left: 0px; width:80%}
+}
+@keyframes bars3{
+  0%{background-color: rgba(20,16,93,1); left: 0px; width:0%}
+  25%{background-color:rgb(25, 0, 255); left: 0px; width:10%}
+  50%{background-color: rgb(46, 82, 245); left: 0px; width:20%}
+  75%{background-color: rgb(12, 118, 139); left: 0px; width:30%}
+  100%{background-color: rgb(0, 221, 255); left: 0px; width:65%}
+}
+@keyframes bars4{
+  0%{background-color: rgba(20,16,93,1); left: 0px; width:0%}
+  25%{background-color:rgb(25, 0, 255); left: 0px; width:5%}
+  50%{background-color: rgb(46, 82, 245); left: 0px; width:15%}
+  75%{background-color: rgb(12, 118, 139); left: 0px; width:27%}
+  100%{background-color: rgb(0, 221, 255); left: 0px; width:60%}
+}
+.countdown_internships{
+  border-radius: 10px;
+  animation-name: countdown;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;}
+
+@keyframes countdown{
+  0%{background-color: rgb(255, 253, 253);}
+  100%{background-color: rgb(249, 9, 9);}
+}
+.footer{
+  color: #f3f3f3;
+	background: linear-gradient(90deg, rgba(20,16,93,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+	font-size: small;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+}
+@media screen and (min-width: 1024px){
+  .myimage{
+    width:100px; 
+    height:600px;
+  }
+  .parent{
+    position: relative;
+    bottom: 100px;
+  }
+  .child{
+    position: relative;
+    bottom: 700px;
+    left: 100px;
+  }
+  .child2{
+    position: relative;
+    bottom:1270px;
+    left: 210px;
+  }
+  .ranitimage{
+    height: 500px;
+  }
+
+}
